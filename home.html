@@ -6,6 +6,9 @@
     <title>Guitar Store</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/home.css">
+    <!-- cdn for animation -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- cdn for icons -->
     <script src="https://kit.fontawesome.com/82793a44a9.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -41,8 +44,27 @@
             </div>
         </nav>
         <section class="slider">
-
+            <div class="slides">
+                <div class="item active" id="slide1">
+                    <img src="./images/s1.jpg" alt="">
+                    <span>اسلاید 1</span>
+                </div>
+                <div class="item" id="slide2">
+                    <img src="./images/s2.jpg" alt="">
+                    <span style="color: white;">اسلاید 2</span>
+                </div>
+                <div class="item" id="slide3">
+                    <img src="./images/s3.jpg" alt="">
+                    <span>اسلاید 3</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slide3',3)"  class="fas fa-circle"></i> 
+                <i onclick="setSlide('slide2',2)"  class="fas fa-circle"></i> 
+                <i onclick="setSlide('slide1',1)" class="fas fa-circle"></i>
+            </div>
         </section>
     </header>
+    <script src="./js/main.js"></script>
 </body>
 </html>
