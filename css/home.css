@@ -51,10 +51,6 @@ header{
         font-size: 1em;
     }
 
-    .slider .slides{
-
-    }
-
     .slider .slides .item{
         position: relative;
         display: none;
@@ -97,3 +93,40 @@ header{
         margin: 5px;
         cursor: pointer;
     }
+
+/* product section */
+
+.product{
+
+}
+
+.product .row{
+
+}
+
+.product .row{
+
+}
+
+.shoping-card{
+
+}
+
+.shoping-card .img-sec{
+
+}
+
+.shoping-card .img-sec img{
+
+}
+
+.shoping-card .img-sec .hot-offer{
+
+}
+
+.shoping-card .img-sec .stars{
+
+}
+
+
+
